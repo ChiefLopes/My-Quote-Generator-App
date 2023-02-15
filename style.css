@@ -1,0 +1,62 @@
+/* General Styles */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+ }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* centers the text */
+    text-align: center;
+    background:
+   /* to darken the background */
+   linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+    url(images/LightningPebbles.jpg) no-repeat center center / cover;
+    
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1rem;
+    /* border: 2px solid #fff; */
+    color: #fff;
+    background: #262620;
+    padding: 6px;
+    width: 80%;
+
+    /* sets the up/down margin to 20px and left/right margin to auto (center) */
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.quote-content {
+    width: 100%;
+    height: 300px;
+    background-color: #eceaea;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgb(24, 119, 7);
+}
+
+.quote-content .quote {
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.quote-content .quoter {
+    font-size: 1.2rem;
+    font-family: 'Lobster', cursive;
+}
