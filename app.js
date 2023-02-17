@@ -194,4 +194,5 @@ btn.addEventListener('click', function() {
 
    quote.innerText = quotes[random].quote;
    author.innerText = quotes[random].author;
+   
 })
